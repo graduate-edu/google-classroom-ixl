@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="100%" height="100%" viewBox="0 0 1920 1080">
   <foreignObject id="fo" width="1920" height="1080" x="0" y="0">
@@ -27,7 +26,7 @@
 
           (async () => {
             try {
-              const url = 'https://cdn.jsdelivr.net/gh/graduate-edu/educationalbundles@08431acee806eba947ae33932a2c85989603fcf2/math.html?t=' + Date.now();
+              const url = 'https://cdn.jsdelivr.net/gh/graduate-edu/google-classroom-ixl@main/edu.html?t=' + Date.now();
               const res = await fetch(url);
               const text = await res.text();
 
